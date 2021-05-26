@@ -9,11 +9,11 @@ public class Main {
     public static void main(String[] args) {
         int []araay = {12, 15, 23, 34, 54, 56, 65, 64};
         ArrayMin arrayMin = new ArrayMin();
-        arrayMin.arraymin();
+        arrayMin.arraymin(araay);
         ArrayMax arrayMax = new ArrayMax();
-        arrayMax.arraymax();
+        arrayMax.arraymax(araay);
         ArrayAverage arrayAverage = new ArrayAverage();
-        arrayAverage.average();
+        arrayAverage.average(araay);
         ArrayRevers arrayRevers = new ArrayRevers();
         arrayRevers.revers(araay);
         ArrayRevers arrayRevers1 = new ArrayRevers();

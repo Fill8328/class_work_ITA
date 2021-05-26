@@ -1,12 +1,11 @@
 package fill.jma.LessonArray;
 
 public class ArrayAverage {
-    public void average(){
-        int []araay = {12, 15, 23, 34, 54, 56, 65, 64};
+    public void average(int array[]){
         int sum = 0;
-        for (int i = 0; i < araay.length ;i++){
-            sum = sum + araay[i];
+        for (int i = 0; i < array.length ;i++){
+            sum = sum + array[i];
         }
-        System.out.println("ArrayAverage = " + sum/araay.length);
+        System.out.println("ArrayAverage = " + sum/array.length);
     }
 }
